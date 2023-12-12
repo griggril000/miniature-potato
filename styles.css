@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic style to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #e74c3c;
+    /* Red color */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Center the header content */
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the activity card */
+.activity-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the video container */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #e74c3c;
+    /* Red color */
+    color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
